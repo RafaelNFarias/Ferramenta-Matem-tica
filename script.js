@@ -17,7 +17,7 @@ function calcularFibonacci(n) {
     for (let i = 2; i <= n; i++) {
         fibonacci.push(fibonacci[i - 1] + fibonacci[i - 2]);
     }
-    return fibonacci.slice(0, n + 1); // Retorna a sequência até o n-ésimo número
+    return fibonacci.slice(0, n + 1);
 }
 function calcularInformacoesMatematicas(numero) {
     if (numero < 0 || !Number.isInteger(numero)) {
